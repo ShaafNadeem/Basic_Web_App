@@ -7,7 +7,7 @@ while True:
         case 'add':
             todo = input('Enter a todo:')
             todos.append(todo)
-            file = open('text.txt','w')
+            file = open('../code_files/text.txt', 'w')
             file.writelines(todos)
         case 'show':
             for index,item in enumerate(todos):
